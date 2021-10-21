@@ -1,0 +1,100 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+#navbar
+{
+    background-color: yellow;
+	height:10%;
+	
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header
+{
+background-color:#ffffbf
+}  
+#feature
+{
+    text-align: center;
+    
+}
+
+#feature .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+    text-align: center;
+    margin-top: 8%;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+	background-image:linear-gradient(to right,#a517ba,#5f1782)
+}
+
+#Custfoot
+{
+    background-color: yellow;
+    height:AUTO;
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 80px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 80%;
+    color: black;
+  }
+  p{
+      color:black;
+      font-size: larger;
+      font-weight: bold;
+      font-style: italic;
+  }
+  #email
+  {
+      width: 40%;
+
+  }
+
+  #email1
+  {
+      width: 40%;
+
+  }
+  #number
+  {
+      width: 40%;
+  }
+#m1
+{
+    margin-top: 100px;
+    margin-left: 350px;
+    
+}
+#m2
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+#pop
+{
+     
+    width: 100%;
+    height: 550px;
+}
+ 

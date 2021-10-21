@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="mystyle.css" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <title>View Customers</title>
+    <style>
+        a{
+            color:black;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        #c1{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+	    <section id="header">
+        <div class="container">
+        <h1>
+            Vishal Bank..!
+        </h1>    
+        </div>
+        </section>
+    <section id="navbar">
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+              <div class="navbar-header">
+               
+              </div>
+              <ul class="nav navbar-nav"id="c1">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="CUSTOMERS.PHP">View Customer</a></li>
+                <li><a href="view customers.html">Transaction History</a></li>
+                <li><a href="about.html">About Us</a></li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    <section>
+        <div class="container"id="pop">
+        <div class="container">
+            
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"id="m1">
+              Send Money
+            </button>
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2"id="m2">
+                View Transaction History
+              </button>
+              
+            <br>
+            <br>
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr class="table-danger">
+                                <th scope="col"><i>SR. No.</i></th>
+                                <th scope="col"><i>Transaction ID</i></th>
+                                <th scope="col"><i>Name
+                                </i></th>
+                                <th scope="col"><i>E-mail ID</i></th>
+                                <th scope="col"><i>Total Amounts</i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-light">
+                                <td scope="row">1</td>
+                                <td>
+                                    <p id="Transaction ID">SPI12345890013</p>
+                                </td>
+                                <td>NARAYAN</td>
+                                <td>NARAYAN@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">500</p>
+                                </td>
+                            </tr>
+                            <tr class="table-info">
+                                <td scope="row">2</td>
+                                <td>
+                                    <p id="Transaction ID">DBI10000213546</p>
+                                </td>
+                                <td>VISHAL</td>
+                                <td>VISHAL@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">10000</p>
+                                </td>
+                            </tr>
+                            <tr class="table-light">
+                                <td scope="row">3</td>
+                                 <td>
+                                    <p id="Transaction ID">SBI10258976300</p>
+                                </td>
+                                <td>PASAD</td>
+                                <td>PRASAD@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">50000</p>
+                                </td>
+                            </tr>
+                            <tr class="table-info">
+                                <td scope="row">4</td>
+                                 <td>
+                                    <p id="Transaction ID">BOI20001500791</p>
+                                </td>
+                                <td>VISHAL</td>
+                                <td>VISHAL55@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">8000</p>
+                                </td>
+                            </tr>
+                            <tr class="table-light">
+                                <td scope="row">5</td>
+                                 <td>
+                                    <p id="Transaction ID">IDFC10000200146</p>
+                                </td>
+                                <td>Ram</td>
+                                <td>RAM@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">5000</p>
+                                </td>
+                            </tr>
+                            <tr class="table-info">
+                                <td scope="row">6</td>
+                                <td>
+                                    <p id="Transaction ID">RBI20001500791</p>
+                                </td>
+                                <td>SWAPNIL</td>
+                                <td>SWAPNIL@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">1000000000</p>
+                                </td>
+                            </tr>
+                            <tr class="table-light">
+                                <td scope="row">7</td>
+                                <td>
+                                    <p id="Transaction ID">MOD20001500791</p>
+                                </td>
+                                <td>ROHIT</td>
+                                <td>ROHIT@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">100000</p>
+                                </td>
+                            </tr>
+                            <tr class="table-info">
+                                <td scope="row">8</td>
+                                <td>
+                                    <p id="Transaction ID">TPIO2000777745</p>
+                                </td>
+                                <td>TUSHAR</td>
+                                <td>TUSHAR@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">35000</p>
+                                </td>
+                            </tr>
+                            <tr class="table-light">
+                                <td scope="row">9</td>
+                                <td>
+                                    <p id="Transaction ID">RTP2000777791</p>
+                                </td>
+                                <td>GANESH</td>
+                                <td>GANES@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">12000</p>
+                                </td>
+                            </tr>
+                            <tr class="table-info">
+                                <td scope="row">10</td>
+                                <td>
+                                    <p id="Transaction ID">TMO2000150451</p>
+                                </td>
+                                <td>SAURABH</td>
+                                <td>SAURABH@GMAIL.COM</td>
+                                <td>
+                                    <p id="Total Amounts">1000</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Send Money</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <div class="container">
+                        <form action="">
+                          <div class="form-group">
+                            <label for="email">Senders Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Senders email" name="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="email">Recipents  Email:</label>
+                            <input type="email" class="form-control" id="email1" placeholder="Enter Recipents email" name="email1">
+                          </div>
+                          <div class="form-group">
+                            <label for="text">Recipents  Amount</label>
+                            <input type="number" class="form-control" id="number" placeholder="Enter Amount" name="Amount">
+                          </div>
+                          
+                          
+                        </form>
+                      </div>
+                      
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <a href="CUSTOMERS.PHP"><button type="submit" class="btn btn-primary">Submit</button></a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          </div>
+          
+    </section>
+     
+
+<footer id="Custfoot">
+
+    <div class="container">
+        <h1>Find Us On Social Media</h1>
+          <a href="https://www.facebook.com/vishal.rathod.374549/"><i class="social-icon fa fa-facebook-square"aria-hidden></i></a>
+            <a href="https://www.instagram.com/vishal_rathod24/"><i class="social-icon fa fa-instagram" aria-hidden="true"></i></a>
+            <i class="social-icon fa fa-twitter" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/in/vishal-rathod-5b3bbb205/"><i class="social-icon fa fa-linkedin" aria-hidden="true"></i></a>
+        <br>
+            <p>© Copyright 2021 VISHAL BANK.</p>
+
+    </div>
+</footer>
+</body>
+</html>
